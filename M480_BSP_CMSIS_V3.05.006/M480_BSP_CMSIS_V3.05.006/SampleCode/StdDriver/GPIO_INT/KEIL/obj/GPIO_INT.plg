@@ -1,0 +1,387 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\M487\en-us--M480_BSP_CMSIS_V3.05.006\M480_BSP_CMSIS_V3.05.006\SampleCode\StdDriver\GPIO_INT\KEIL\GPIO_INT.uvproj
+Project File Date:  12/10/2025
+
+<h2>Output:</h2>
+Build target 'GPIO_INT'
+creating preprocessor file for system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+assembling startup_M480.s...
+startup_M480.s: Warning: A3910W: Old syntax, please use '--via'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--cpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--16'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--apcs'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--fpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--pd'.
+creating preprocessor file for main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+linking...
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--via'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--ro_base'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--entry'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--rw_base'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--strict'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--map'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--xref'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--callgraph'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--symbols'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--list'.
+.\obj\GPIO_INT.axf: Warning: L6310W: Unable to find ARM libraries.
+.\obj\GPIO_INT.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Build target 'GPIO_INT'
+creating preprocessor file for system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+assembling startup_M480.s...
+startup_M480.s: Warning: A3910W: Old syntax, please use '--via'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--cpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--16'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--apcs'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--fpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--pd'.
+creating preprocessor file for main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+creating preprocessor file for gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+compiling gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+linking...
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--via'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--ro_base'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--entry'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--rw_base'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--strict'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--map'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--xref'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--callgraph'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--symbols'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--info'.
+.\obj\GPIO_INT.axf: Warning: L3910W: Old syntax, please use '--list'.
+.\obj\GPIO_INT.axf: Warning: L6310W: Unable to find ARM libraries.
+.\obj\GPIO_INT.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Build target 'GPIO_INT'
+compiling system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+..\main.c(8): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\retarget.c(11): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\uart.c(10): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+Target not created
+Build target 'GPIO_INT'
+creating preprocessor file for system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling system_M480.c...
+system_M480.c: Warning: C3910W: Old syntax, please use '--via'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--cpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--fpu'.
+system_M480.c: Warning: C3910W: Old syntax, please use '--apcs'.
+system_M480.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+assembling startup_M480.s...
+startup_M480.s: Warning: A3910W: Old syntax, please use '--via'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--cpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--16'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--apcs'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--fpu'.
+startup_M480.s: Warning: A3910W: Old syntax, please use '--pd'.
+creating preprocessor file for main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+..\main.c(8): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling main.c...
+main.c: Warning: C3910W: Old syntax, please use '--via'.
+main.c: Warning: C3910W: Old syntax, please use '--cpu'.
+main.c: Warning: C3910W: Old syntax, please use '--fpu'.
+main.c: Warning: C3910W: Old syntax, please use '--apcs'.
+main.c: Warning: C3912W: Option 'zo' is deprecated.
+..\main.c(8): error:  #5: cannot open source input file "stdio.h": No such file or directory
+creating preprocessor file for retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\retarget.c(11): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling retarget.c...
+retarget.c: Warning: C3910W: Old syntax, please use '--via'.
+retarget.c: Warning: C3910W: Old syntax, please use '--cpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--fpu'.
+retarget.c: Warning: C3910W: Old syntax, please use '--apcs'.
+retarget.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\retarget.c(11): error:  #5: cannot open source input file "stdio.h": No such file or directory
+creating preprocessor file for clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling clk.c...
+clk.c: Warning: C3910W: Old syntax, please use '--via'.
+clk.c: Warning: C3910W: Old syntax, please use '--cpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--fpu'.
+clk.c: Warning: C3910W: Old syntax, please use '--apcs'.
+clk.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+creating preprocessor file for sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling sys.c...
+sys.c: Warning: C3910W: Old syntax, please use '--via'.
+sys.c: Warning: C3910W: Old syntax, please use '--cpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--fpu'.
+sys.c: Warning: C3910W: Old syntax, please use '--apcs'.
+sys.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+creating preprocessor file for uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\uart.c(10): error:  #5: cannot open source input file "stdio.h": No such file or directory
+compiling uart.c...
+uart.c: Warning: C3910W: Old syntax, please use '--via'.
+uart.c: Warning: C3910W: Old syntax, please use '--cpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--fpu'.
+uart.c: Warning: C3910W: Old syntax, please use '--apcs'.
+uart.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\StdDriver\src\uart.c(10): error:  #5: cannot open source input file "stdio.h": No such file or directory
+creating preprocessor file for gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+compiling gpio.c...
+gpio.c: Warning: C3910W: Old syntax, please use '--via'.
+gpio.c: Warning: C3910W: Old syntax, please use '--cpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--fpu'.
+gpio.c: Warning: C3910W: Old syntax, please use '--apcs'.
+gpio.c: Warning: C3912W: Option 'zo' is deprecated.
+..\..\..\..\Library\CMSIS\Include\core_cm4.h(44): error:  #5: cannot open source input file "stdint.h": No such file or directory
+Target not created
