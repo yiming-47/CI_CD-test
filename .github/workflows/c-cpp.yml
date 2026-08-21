@@ -1,0 +1,50 @@
+name: Build all M487 examples
+ 
+# Runs on every push and pull request. Adjust branches as needed.
+on:
+  push:
+  pull_request:
+ 
+jobs:
+  build:
+    # GitHub-hosted cloud runner - no access to real hardware.
+    # This job only proves every example compiles cleanly.
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+ 
+      - name: Build toolchain Docker image
+        run: docker build -t m487-toolchain .
+ 
+      - name: Build every SampleCode example
+        run: |
+          set -e
+          fail=0
+ 
+          # Find every folder that has both a Makefile and a main.c -
+          # same rule used for the local batch-build loop.
+          while IFS= read -r -d '' makefile; do
+            dir=$(dirname "$makefile")
+            if [ -f "$dir/main.c" ]; then
+              echo "::group::Building $dir"
+              if docker run --rm \
+                  -v "$PWD":/workspace \
+                  -w "/workspace/$dir" \
+                  --user "$(id -u)":"$(id -g)" \
+                  m487-toolchain \
+                  sh -c "make clean && make"; then
+                echo "OK: $dir"
+              else
+                echo "FAILED: $dir"
+                fail=1
+              fi
+              echo "::endgroup::"
+            fi
+          done < <(find . -iname "Makefile" -print0)
+ 
+          if [ "$fail" -ne 0 ]; then
+            echo "One or more examples failed to build."
+            exit 1
+          fi
