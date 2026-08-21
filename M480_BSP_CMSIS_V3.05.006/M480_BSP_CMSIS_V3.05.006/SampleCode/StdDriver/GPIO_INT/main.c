@@ -12,7 +12,7 @@
 
 #define PLL_CLOCK       192000000
 
-// just use for test CI-CD
+// just use for test CI-CD round 2
 /**
  * @brief       GPIO PB IRQ
  *
